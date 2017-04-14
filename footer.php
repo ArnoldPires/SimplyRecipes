@@ -3,6 +3,8 @@
 
 </footer>
 
+</div><!--Closing div for .container -->
+
 <?php wp_footer(); ?>
 </body>
 </html>

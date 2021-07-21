@@ -1,2 +1,1 @@
-# Learning-Wordpress
-For the WordPress team
+# Recipe List WebSite

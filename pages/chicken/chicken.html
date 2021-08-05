@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tags</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
     <!-- normalize -->
-    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
     <!-- main css -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 </head>
+
 <body class="tags-page">
     <!--Nav-->
     <nav class="navbar">
         <section class="nav-center">
             <!--Header-->
             <section class="nav-header">
-                <a href="../index.html" class="nav-logo">
-                    <img src="../assets/images/logo.svg" alt="simply recipes" />
+                <a href="/index.html" class="nav-logo">
+                    <img src="/assets/images/logo.svg" alt="simply recipes" />
                 </a>
                 <button class="nav-btn btn">
                     <i class="fas fa-align-justify"></i>
@@ -29,12 +31,11 @@
             </section>
             <!--Links-->
             <div class="nav-links">
-                <a href="../index.html" class="nav-link">Home</a>
-                <a href="about.html" class="nav-link">About</a>
-                <a href="tags.html" class="nav-link">Tags</a>
-                <a href="recipes.html" class="nav-link">Recipes</a>
+                <a href="/index.html" class="nav-link">Home</a>
+                <a href="/pages/about.html" class="nav-link">About</a>
+                <a href="/pages/recipes.html" class="nav-link">Recipes</a>
                 <div class="nav-link contact-link">
-                    <a href="contact.html" class="btn">Contact</a>
+                    <a href="/pages/contact.html" class="btn">Contact</a>
                 </div>
             </div>
         </section>
@@ -42,8 +43,31 @@
     <!--End of Nav-->
     <!--Main-->
     <main class="page">
-        <section>
-            <h4>Beef</h4>
+        <section class="recipes-container">
+            <h4>Chicken</h4>
+            <div class="recipes-list">
+                <a href="./pages/single-recipe.html" class="recipe">
+                    <img src="/assets/recipes/cachupa.jpg" alt="cachupa" class="img recipe-img" />
+                    <h5>Cachupa</h5>
+                    <p>Prep: 15min | Cook: 5min</p>
+                </a>
+                <a href="./pages/single-recipe.html" class="recipe">
+                    <img src="/assets/recipes/canja.png" alt="canja" class="img recipe-img" />
+                    <h5>Canja</h5>
+                    <p>Prep: 15min | Cook: 5min</p>
+                </a>
+            </div>
+            <div class="tags-container">
+                <h4>Recipes</h4>
+                <div class="tags-list">
+                    <a href="/pages/beef/beef.html">Beef (3)</a>
+                    <a href="/pages/chicken/chicken.html">Chicken (2)</a>
+                    <a href="/pages/fish/fish.html">Fish (3)</a>
+                    <a href="/pages/pork/pork.html">Pork (3)</a>
+                    <a href="/pages/filler/filler.html">Filler (1)</a>
+                    <a href="/pages/dessert/dessert.html">Dessert (3)</a>
+                </div>
+            </div>
         </section>
     </main>
     <!--End of Main-->
@@ -52,5 +76,6 @@
         <p>&copy; <span id="date"></span><span class="footer-logo"> SimplyRecipes </span>Built by<a href="https://arnaldopires.com/"> Arnaldo Pires</a></p>
     </footer>
 </body>
-<script src="../js/main.js"></script>
+<script src="/js/main.js"></script>
+
 </html>

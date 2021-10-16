@@ -227,12 +227,32 @@ ul {
   margin: 0 auto;
   margin-top: -1rem;
 }
-body {
-  background-image: url(../assets/images/main.jpeg);
+.home-page, .about-page, .tags-page, .recipes-page,.contact-page, .single-recipe-page, .tag-template-page {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+.home-page {
+  background-image: url(../assets/images/main.jpg);
+}
+.about-page {
+  background-image: url(../assets/images/about.jpg);
+}
+.tags-page {
+  background-image: url(../assets/images/tags.jpg);
+}
+.recipes-page {
+  background-image: url(../assets/images/recipes.jpg);
+}
+.contact-page {
+  background-image: url(../assets/images/contact.jpg);
+}
+.single-recipe-page {
+  background-image: url(../assets/images/single-recipe.jpg);
+}
+.tag-template-page {
+  background-image: url(../assets/images/tag-template.jpg);
 }
 .navbar, .page {
   background-color: #f5f5f5e3;

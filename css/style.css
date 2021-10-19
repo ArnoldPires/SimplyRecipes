@@ -393,6 +393,7 @@ ul {
 .recipes-container {
   display: grid;
   gap: 2rem 1rem;
+  padding: 1rem;
 }
 .recipes-list {
   display: grid;

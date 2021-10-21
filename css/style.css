@@ -363,7 +363,7 @@ ul {
 }
 /* Hero */
 .hero {
-  height: 40vh;
+  height: 25vh;
   margin-bottom: 2rem;
   border-radius: var(--borderRadius);
   position: relative;
@@ -486,11 +486,6 @@ ul {
 }
 .error-page h1 {
   font-size: 9rem;
-}
-/*food pages */
-.page h4 {
-  text-align: center;
-  padding: 2rem;
 }
 /* Footer */
 footer {

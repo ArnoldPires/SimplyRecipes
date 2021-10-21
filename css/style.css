@@ -390,14 +390,14 @@ ul {
   }
 }
 /* About */
-.about-page-section h2 {
-  text-transform: none;
-  font-weight: bold;
-}
 .about-page-section {
   display: grid;
   gap: 2rem 4rem;
   padding-bottom: 3rem;
+}
+.about-page-section h2 {
+  text-transform: none;
+  font-weight: bold;
 }
 .about-img {
   border-radius: var(--borderRadius);
@@ -407,13 +407,10 @@ ul {
   text-align: center;
 }
 @media screen and (min-width:992px) {
-  .about-page {
+  .about-page-section {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px;
     align-items: center;
-  }
-  .about-img {
-    height: 100%;
   }
 }
 /* Recipes */

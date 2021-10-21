@@ -113,7 +113,7 @@ ul {
 .img {
   width: 100%;
   display: block;
-  object-fit: fill;
+  object-fit: cover;
 }
 /* buttons */
 .btn {
@@ -486,6 +486,11 @@ ul {
 }
 .error-page h1 {
   font-size: 9rem;
+}
+/*food pages */
+.page h4 {
+  text-align: center;
+  padding: 2rem;
 }
 /* Footer */
 footer {

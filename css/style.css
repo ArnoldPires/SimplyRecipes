@@ -413,6 +413,11 @@ ul {
     align-items: center;
   }
 }
+@media screen and (max-width: 576px) {
+  .about-img {
+    height: 250px;
+  }
+}
 /* Recipes */
 .recipes-container {
   display: grid;

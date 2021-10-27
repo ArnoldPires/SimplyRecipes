@@ -508,6 +508,29 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+/*Contact page */
+.contact-page-section {
+  display: grid;
+  gap: 2rem 3rem;
+  padding-bottom: 3rem;
+}
+.contact-form {
+  width: 100%;
+}
+@media screen and (min-width: 992px) {
+  .contact-page-section {
+    grid-template-columns: 1fr 480px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact-page-section {
+    padding-top: 3rem;
+  }
+  .form {
+    margin: 0;
+  }
+}
 /* 404 Error */
 .error-page {
   text-align: center;

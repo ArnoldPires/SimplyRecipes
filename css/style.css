@@ -544,7 +544,6 @@ ul {
 @media screen and (min-width: 992px) {
   .recipe-hero {
     grid-template-columns: 4fr 5fr;
-    align-items: center;
   }
 }
 .recipe-content {

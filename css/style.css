@@ -414,6 +414,10 @@ ul {
   .about-img {
     height: 250px;
   }
+  .home-page, .about-page, .tags-page, .recipes-page,.contact-page, .single-recipe-page, .tag-template-page {
+  background-repeat: round;
+  background-attachment: unset;
+}
 }
 /* Recipes */
 .recipes-container {
